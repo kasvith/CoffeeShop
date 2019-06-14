@@ -1,0 +1,13 @@
+environments:
+  - name: dev
+    endpoints:
+      production:
+        url: 'https://jsonplaceholder.typicode.com/posts'
+  - name: prod
+    endpoints:
+      production:
+        url: 'https://jsonplaceholder.typicode.com/albums'
+  - name: test
+    endpoints:
+      production:
+        url: 'https://jsonplaceholder.typicode.com/todos'

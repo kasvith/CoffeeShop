@@ -1,0 +1,20 @@
+{
+  "id": {
+    "providerName": "admin",
+    "apiName": "CoffeeAPI",
+    "version": "1.0.0"
+  },
+  "type": "HTTP",
+  "context": "/coffee",
+  "tags": [],
+  "availableTiers": [
+    {
+      "name": "Unlimited"
+    }
+  ],
+  "uriTemplates": [],
+  "status": "PUBLISHED",
+  "visibility": "public",
+  "transports": "http,https",
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://localhost:8080\", \"config\":\"null\"}, \"endpoint_type\":\"http\"}"
+}
